@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="home-page">
+
+        <header class="home-page__header">
+
+            <div class="home-page__header__bottom">
+                <p><a href="../home/home.html" style="color:darkblue;">home</a></p>
+                <p><a href="../todos/todo.html" >todos</a></p>
+            </div>
+        </header>
+
+        <main class="home-page__main">
+            <div class="input_btn">
+               
+                <p class="lable">title:</p>
+                <input type="text"class="title" id="main_input"><br><br>
+                 
+                 <p class="lable">description:</p>
+                 <input type="text" class="describe" id="main_input"><br><br>
+               
+                 <p class="lable">Due Date:</p>
+                 <input type="text"  class="Date" id="main_input"><br><br>
+                <button class="btn">submit</button>
+            </div>
+        </main>
+
+
+        <section class="message_section">
+            <div class="success">
+                <span>successfully</span>
+                <iconify-icon class="close" icon="ri:close-circle-line"></iconify-icon>
+            </div>
+            <span>the todo successfully submited</span>
+        </section>
+
+    </div>
+
+    <script src="iconify-icon.min.js"></script>
+    <script src="iconify-icon.back.js"></script>
+    <script src="iconify-icon.next.js"></script>
+    <script src="iconify-icon.close.js"></script>
+    <script src="axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

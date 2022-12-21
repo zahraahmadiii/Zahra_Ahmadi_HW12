@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="home">
+<!-- ////////////////////////header///////////////////////////////// -->
+        <header class="home-page__header" >
+            
+            <div class="home-page__header__bottom">
+                <p><a href="../home/home.html">home</a></p>
+                <p><a href="../todos/todo.html" style="color: blue;">todos</a></p>
+            </div>
+        </header>
+<!-- ///////////////////////////////////////main////////////////////////// -->
+        <main class="home-page__main">
+            <!-- //////////////////////////boxes////////////////////////// -->
+            <div class="wraper_todo">
+               <!-- <div class="todo">
+                <div class="row1">
+                <span class="left">
+                 <input type="checkbox"  name="first" value="checking-email">
+                 <label for="first"> checking-email</label>
+                </span>
+                 <span class="date">12/2/1389 456456465</span>
+                
+                 <span class="right">              
+                 <a><iconify-icon class="edit"  icon="material-symbols:edit-outline-rounded"></iconify-icon></a>
+                 <a><iconify-icon class="trash" icon="tabler:trash"></iconify-icon>
+                 </a>
+                 </span>
+                </div>
+                 <p class=" row2 text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, ab.lorem10Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, ab.lorem10</p>
+               </div> -->
+
+            </div>
+<!-- /////////////////////////////pagination//////////////////// -->
+        <ul class="pagination">
+            <li class="page active" onclick="activeLink(event)" value="1">1</li>
+            <li class="page " onclick="activeLink(event)" value="2">2</li>
+            <li class="page " onclick="activeLink(event)" value="3">3</li>
+        </ul>
+<!-- ///////////////////////////modal///////////////////////////////// -->
+    <div class="overlay">
+            <div class="modal">
+                <div class="header">
+                   <iconify-icon id="danger" icon="jam:triangle-danger"></iconify-icon>
+                   <span>Delete</span> 
+                </div>
+                <hr>
+                <div class="main">
+                    <p>Do uou want to delete this item?</p>
+                    <p>Checking email</p>
+                    <p>31/10/2021</p>
+                </div>
+                <hr>
+                <div class="footer">
+                    <button class="footerBtn btn1">Delete</button>
+                    <button class="footerBtn btn2">Cancel</button>
+                </div>
+            </div>
+        </div>
+        </main>
+      
+    </div>
+
+
+    <script src="iconify-icon.min.js"></script>
+    <script src="iconify-icon.back.js"></script>
+    <script src="iconify-icon.next.js"></script>
+    <script src="iconify-icon.danger.js"></script>
+    <script src="axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- <style>
+    .pagination a {
+      color: black;
+      float: left;
+      padding: 8px 16px;
+      text-decoration: none;
+      transition: background-color .3s;
+    }
+    
+    .pagination a.active {
+      background-color: dodgerblue;
+      color: white;
+    }
+    
+    .pagination a:hover:not(.active) {background-color: #ddd;}
+    </style>
+    </head>
+    <body>
+    
+    <h2>Pagination</h2>
+    <p>Responsive pagination with hover effects:</p>
+    
+    <div class="pagination">
+      <a href="#">&laquo;</a>
+      <a href="#">1</a>
+      <a class="active" href="#">2</a>
+      <a href="#">3</a>
+      <a href="#">4</a>
+      <a href="#">5</a>
+      <a href="#">6</a>
+      <a href="#">&raquo;</a>
+    </div> -->

@@ -1,0 +1,63 @@
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+  background-color: rgb(213, 241, 187); 
+  
+}
+
+.home-page__header__bottom{
+ background-color:rgb(224, 249, 201);
+ height: 20px;
+ display: flex;
+ gap: 10px;
+ padding-left: 1rem;
+border: 0.5px solid rgb(7, 146, 37);
+ }
+a{
+  color: rgb(188, 188, 188);
+  text-decoration: none;
+}
+ .input_btn{
+ display: grid;
+  justify-content: center;
+  align-items:center ;
+ margin-top: 125px;
+  margin-bottom: 80px;
+ background-color: rgb(213, 241, 187);
+ }
+ #main_input{
+ width:20rem;
+ padding: 0.25rem;
+ border-radius: 5px;
+ border: 1px solid rgb(42, 90, 220);
+ }
+.btn{
+background-color: rgb(33, 124, 222);
+color: white;
+padding: 0.25rem;
+border-radius: 5px;
+border: 1px solid rgb(42, 90, 220);
+  }
+.lable{
+  color: rgb(33, 124, 222);
+  font-size: 20px;
+}
+
+ .message_section{
+  background-color: rgb(120, 199, 120);
+  border: 1px solid rgb(56, 115, 78);
+  padding: 1rem;
+  width: 15rem;
+  margin-left: 1rem;
+  display: none;
+  color: white;
+ }
+ .close{
+  margin-left: 6rem;
+  color:rgb(193, 26, 26);
+  font-size: 20px;
+ }
