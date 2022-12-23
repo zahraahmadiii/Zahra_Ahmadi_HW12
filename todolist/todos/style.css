@@ -48,7 +48,8 @@ border-radius: 3px;
 width: 3rem;
 margin-left: 135px;
  }
- .pagination{
+ /* another way to hovering each item */
+ /* .pagination{
   display: flex;
   flex-direction: row;
   border: 1px solid black;
@@ -60,7 +61,14 @@ margin-left: 135px;
   cursor: pointer;
   background-position: 0 -45px;
   transition: background-position 0.5s;
- }
+ } */
+
+ /* .active{
+  color: #fff;
+  background-image: linear-gradient(#2d6df6,#2d6df6);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+ } */
  a{
   text-decoration: none;
   color: rgb(188, 188, 188);
@@ -72,12 +80,6 @@ margin-left: 135px;
  .row2{
   color: black;
   padding-top: 10px;
- }
- .active{
-  color: #fff;
-  background-image: linear-gradient(#2d6df6,#2d6df6);
-  background-repeat: no-repeat;
-  background-position: 0 0;
  }
  .home-page__main{
   display: flex;
@@ -131,3 +133,24 @@ margin-left: 135px;
  .btn2{
   background-color: rgb(32, 161, 32);
  }
+
+li{
+  cursor: pointer;
+}
+ .page{
+  border: 1px solid gray;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.2rem;
+  list-style: none;
+}
+.pagination{
+  display: flex;
+  gap: 1rem;
+  text-align: center;  
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+ .active_btn{
+  background-color: rgb(16, 157, 245);
+}

@@ -53,7 +53,7 @@ close.addEventListener("click",function(){
 
 let Url=new URLSearchParams(location.search);
 let target_id=Url.get("id");
-console.log(target_id);
+// console.log(target_id);
 
 if(target_id){
     btn.addEventListener("click",edit_todo)
